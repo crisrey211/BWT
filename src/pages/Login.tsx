@@ -7,14 +7,27 @@ function Login() {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit} className="form">
-        <input type="text" name="username" placeholder="Inserte usuario" />
-        <input
-          type="password"
-          name="password"
-          placeholder="Inserte contraseña"
-        />
+    <div className="form">
+      <h1>Login</h1>
+      <form onSubmit={handleSubmit}>
+        <div className="question">
+          <input
+            type="text"
+            name="username"
+            placeholder="Inserte usuario"
+            required
+          />
+          <label>Username</label>
+        </div>
+        <div className="question">
+          <input
+            type="password"
+            name="password"
+            placeholder="Inserte contraseña"
+            required
+          />
+          <label>Password</label>
+        </div>
         <button type="submit">Enviar</button>
       </form>
     </div>
