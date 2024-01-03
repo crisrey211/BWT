@@ -9,16 +9,28 @@ function Navbar() {
           <NavLink to="/home">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/login">Iniciar</NavLink>
         </li>
         <li>
-          <NavLink to="/login">Login</NavLink>
+          <NavLink to="/register">Registrarse</NavLink>
         </li>
         <li>
-          <NavLink to="/register">Register</NavLink>
+          <NavLink to="/">Colaboraciones</NavLink>
         </li>
         <li>
-          <NavLink to="/badges">Badges</NavLink>
+          <NavLink to="/">Favoritos</NavLink>
+        </li>
+        <li>
+          <NavLink to="/badges">Sellos</NavLink>
+        </li>
+        <li>
+          <NavLink to="/">Ofertas</NavLink>
+        </li>
+        <li>
+          <NavLink to="/">Blog</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">Contacto</NavLink>
         </li>
       </ul>
     </nav>
