@@ -1,0 +1,24 @@
+/* Limitar el tamaño de todas las imágenes */
+img {
+  max-width: 100%; /* Ancho máximo igual al tamaño del contenedor */
+  height: auto; /* Altura ajustada automáticamente para mantener la proporción */
+  border-radius: 0 20% 0 20%;
+}
+
+/* Limitar el tamaño de una imagen específica con una clase */
+.imagen-limitada {
+  max-width: 300px;
+  height: auto;
+  border-radius: 1px 0 3px 4px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1;
+}
+.main {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}

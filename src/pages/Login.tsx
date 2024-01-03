@@ -1,4 +1,4 @@
-import styles from '../css/login.module.css';
+import '../css/login.css';
 function Login() {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -8,7 +8,7 @@ function Login() {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className={styles.form}>
+      <form onSubmit={handleSubmit} className="form">
         <input type="text" name="username" placeholder="Inserte usuario" />
         <input
           type="password"
