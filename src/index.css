@@ -5,12 +5,38 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--manhattan-300);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /*uicolors:#facda1 */
+  --manhattan-50: #fef6ee;
+  --manhattan-100: #fdebd7;
+  --manhattan-200: #facda1;
+  --manhattan-300: #f8b579;
+  --manhattan-400: #f38c44;
+  --manhattan-500: #f06c1f;
+  --manhattan-600: #e15315;
+  --manhattan-700: #bb3d13;
+  --manhattan-800: #953217;
+  --manhattan-900: #782b16;
+  --manhattan-950: #411309;
+
+  /*uicolors:#7a7a7a */
+  --boulder-50: #f6f6f6;
+  --boulder-100: #e7e7e7;
+  --boulder-200: #d1d1d1;
+  --boulder-300: #b0b0b0;
+  --boulder-400: #888888;
+  --boulder-500: #7a7a7a;
+  --boulder-600: #5d5d5d;
+  --boulder-700: #4f4f4f;
+  --boulder-800: #454545;
+  --boulder-900: #3d3d3d;
+  --boulder-950: #262626;
 }
 
 a {

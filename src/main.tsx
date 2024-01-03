@@ -10,13 +10,19 @@ import {
 } from 'react-router-dom';
 //Páginas
 import Home from './pages/Home';
-import About from './pages/About';
+import Contact from './pages/Contact.tsx';
+import Login from './pages/Login.tsx';
+import Register from './pages/Register.tsx';
+import Badges from './pages/Marks.tsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-      <Route index element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route index path="home" element={<Home />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="login" element={<Login />} />
+      <Route path="register" element={<Register />} />
+      <Route path="badges" element={<Badges />} />
     </Route>,
   ),
 );
